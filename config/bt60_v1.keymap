@@ -26,7 +26,7 @@
 				&kp LSHFT &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH   &kp RSHFT &kp UP &kp K_PASTE
 				&kp LCTRL &kp LGUI &kp LALT            &kp SPACE                          &kp RALT  &mo 1 &kp RCTRL &kp LEFT &kp DOWN &kp RIGHT
 			>;
-			sensor-bindings = <&inc_dec_kp K_REDO K_UNDO &inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp K_REDO K_UNDO &inc_dec_kp RGB_TOG BL_TOG &inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		raise {
 			bindings = <
